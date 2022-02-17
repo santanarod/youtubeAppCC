@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F601CAD127BEF37000FF9023 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601CAD027BEF37000FF9023 /* Constants.swift */; };
+		F601CAD327BEF97100FF9023 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601CAD227BEF97100FF9023 /* ConstantsTemplate.swift */; };
 		F659139627BB2DE00070358D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F659139527BB2DE00070358D /* AppDelegate.swift */; };
 		F659139827BB2DE00070358D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F659139727BB2DE00070358D /* SceneDelegate.swift */; };
 		F659139A27BB2DE00070358D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F659139927BB2DE00070358D /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		F601CAD027BEF37000FF9023 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F601CAD227BEF97100FF9023 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 		F659139227BB2DE00070358D /* youtubeAppCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = youtubeAppCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F659139527BB2DE00070358D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F659139727BB2DE00070358D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				F65913A027BB2DE10070358D /* LaunchScreen.storyboard */,
 				F65913A327BB2DE10070358D /* Info.plist */,
 				F601CAD027BEF37000FF9023 /* Constants.swift */,
+				F601CAD227BEF97100FF9023 /* ConstantsTemplate.swift */,
 			);
 			path = youtubeAppCC;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F601CAD327BEF97100FF9023 /* ConstantsTemplate.swift in Sources */,
 				F659139A27BB2DE00070358D /* ViewController.swift in Sources */,
 				F659139627BB2DE00070358D /* AppDelegate.swift in Sources */,
 				F659139827BB2DE00070358D /* SceneDelegate.swift in Sources */,
