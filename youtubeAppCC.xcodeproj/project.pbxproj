@@ -10,6 +10,8 @@
 		F601CAD127BEF37000FF9023 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601CAD027BEF37000FF9023 /* Constants.swift */; };
 		F601CAD327BEF97100FF9023 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601CAD227BEF97100FF9023 /* ConstantsTemplate.swift */; };
 		F601CAD527BF2D4800FF9023 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601CAD427BF2D4800FF9023 /* Response.swift */; };
+		F601CAD727C0772400FF9023 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601CAD627C0772400FF9023 /* VideoTableViewCell.swift */; };
+		F601CAE027C082BD00FF9023 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601CADF27C082BD00FF9023 /* CacheManager.swift */; };
 		F659139627BB2DE00070358D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F659139527BB2DE00070358D /* AppDelegate.swift */; };
 		F659139827BB2DE00070358D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F659139727BB2DE00070358D /* SceneDelegate.swift */; };
 		F659139A27BB2DE00070358D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F659139927BB2DE00070358D /* ViewController.swift */; };
@@ -24,6 +26,8 @@
 		F601CAD027BEF37000FF9023 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F601CAD227BEF97100FF9023 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 		F601CAD427BF2D4800FF9023 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		F601CAD627C0772400FF9023 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		F601CADF27C082BD00FF9023 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		F659139227BB2DE00070358D /* youtubeAppCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = youtubeAppCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F659139527BB2DE00070358D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F659139727BB2DE00070358D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +51,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F601CAD827C0773800FF9023 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F659139927BB2DE00070358D /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F601CAD927C0773D00FF9023 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F601CAD627C0772400FF9023 /* VideoTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F601CADA27C0774200FF9023 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F690D3EE27BC87E400F77D01 /* Video.swift */,
+				F690D3F027BC881900F77D01 /* Model.swift */,
+				F601CAD427BF2D4800FF9023 /* Response.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F601CADB27C0774600FF9023 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F659139B27BB2DE00070358D /* Main.storyboard */,
+				F65913A027BB2DE10070358D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F601CADC27C0774F00FF9023 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F601CAD027BEF37000FF9023 /* Constants.swift */,
+				F601CAD227BEF97100FF9023 /* ConstantsTemplate.swift */,
+				F601CADF27C082BD00FF9023 /* CacheManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		F659138927BB2DE00070358D = {
 			isa = PBXGroup;
 			children = (
@@ -68,16 +117,13 @@
 			children = (
 				F659139527BB2DE00070358D /* AppDelegate.swift */,
 				F659139727BB2DE00070358D /* SceneDelegate.swift */,
-				F659139927BB2DE00070358D /* ViewController.swift */,
-				F690D3EE27BC87E400F77D01 /* Video.swift */,
-				F690D3F027BC881900F77D01 /* Model.swift */,
-				F601CAD027BEF37000FF9023 /* Constants.swift */,
-				F601CAD227BEF97100FF9023 /* ConstantsTemplate.swift */,
-				F659139B27BB2DE00070358D /* Main.storyboard */,
+				F601CADC27C0774F00FF9023 /* Helpers */,
+				F601CADB27C0774600FF9023 /* Storyboards */,
+				F601CADA27C0774200FF9023 /* Models */,
+				F601CAD927C0773D00FF9023 /* Views */,
+				F601CAD827C0773800FF9023 /* View Controllers */,
 				F659139E27BB2DE10070358D /* Assets.xcassets */,
-				F65913A027BB2DE10070358D /* LaunchScreen.storyboard */,
 				F65913A327BB2DE10070358D /* Info.plist */,
-				F601CAD427BF2D4800FF9023 /* Response.swift */,
 			);
 			path = youtubeAppCC;
 			sourceTree = "<group>";
@@ -159,8 +205,10 @@
 				F659139627BB2DE00070358D /* AppDelegate.swift in Sources */,
 				F659139827BB2DE00070358D /* SceneDelegate.swift in Sources */,
 				F690D3F127BC881900F77D01 /* Model.swift in Sources */,
+				F601CAE027C082BD00FF9023 /* CacheManager.swift in Sources */,
 				F690D3EF27BC87E400F77D01 /* Video.swift in Sources */,
 				F601CAD127BEF37000FF9023 /* Constants.swift in Sources */,
+				F601CAD727C0772400FF9023 /* VideoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
